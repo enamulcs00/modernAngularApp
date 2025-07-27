@@ -1,0 +1,20 @@
+.btn-group .button {
+  background-color: #3B82F6; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+
+}
+
+.btn-group .button:hover {
+  background-color: #3B82F6;
+}
+.btn-group .button:focus {
+    outline: none;
+}

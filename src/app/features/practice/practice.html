@@ -1,0 +1,25 @@
+<p>practice works!</p>
+<p>Counter: {{ counter() }}</p>
+<div class="btn-group">
+        <button class="button" (click)="Increment()">Increment</button>
+        <button class="button" (click)="Decrement()">Decrement</button>
+        <button class="button" (click)="Reset()">Reset</button>
+</div>
+ <div class="container">
+      <h2>Reactive Form with Signals</h2>
+      
+      <label>
+        First Name:
+        <input type="text" [(ngModel)]="firstName" />
+      </label>
+
+      <label>
+        Last Name:
+        <input type="text" [(ngModel)]="lastName" />
+      </label>
+
+      <p class="preview">
+        Live Preview: <strong>{{ fullName() }}</strong>
+      </p>
+    </div>
+
